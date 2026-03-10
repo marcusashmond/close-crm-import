@@ -100,7 +100,7 @@ When running the script, the user specifies a start date and end date.
 
 ```bash
 python main.py \
---csv MOCK_DATA.csv \
+--csv data/MOCK_DATA.csv \
 --start 2000-01-01 \
 --end 2015-12-31
 ```
@@ -129,7 +129,7 @@ These calculations are performed using the **pandas** library.
 The results are exported to a CSV file:
 
 ```
-output.csv
+output/output.csv
 ```
 
 The file contains the following columns:
@@ -187,7 +187,7 @@ Run the script with the following command:
 
 ```bash
 python main.py \
---csv MOCK_DATA.csv \
+--csv data/MOCK_DATA.csv \
 --start 2000-01-01 \
 --end 2015-12-31
 ```
@@ -207,7 +207,7 @@ python main.py \
 The script generates:
 
 ```
-output.csv
+output/output.csv
 ```
 
 This file contains the **state‑level revenue summary**.
